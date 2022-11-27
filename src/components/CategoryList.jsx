@@ -1,5 +1,5 @@
 import React from 'react'
-import { categories } from '../Constans'
+import { categories } from '../constans'
 
 const CategoryList = () => {
   return (

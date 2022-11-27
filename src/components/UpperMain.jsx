@@ -1,5 +1,5 @@
 import React from 'react'
-import { Activities } from '../Constans'
+import { activities } from '../constans'
 import BigSquare from './BigSquare'
 import MediumSquare from './MediumSquare'
 import RedSquare from './RedSquare'
@@ -54,8 +54,8 @@ const UpperMain = () => {
                 <h1 className="font-normal text-sm">View timeline / Filter activities</h1>
             </div>
             <div className="border-t-2 border-b-2 border-b-yellow-100 border-t-yellow-100 my-3 py-6" >
-                {Activities.map((activity, index) => (
-                    <div key={index} className={`flex items-start ${Activities.length -1 === index ? "mb-0" : "mb-4"}`}>
+                {activities.map((activity, index) => (
+                    <div key={index} className={`flex items-start ${activities.length -1 === index ? "mb-0" : "mb-4"}`}>
                         <div className="min-w-[100px] h-[92px] bg-yellow-100" />
                         <div className="font-poppins text-yellow-100 font-normal text-sm ml-2">
                             <h1 className='font-semibold text-xl'>{activity.user}</h1>

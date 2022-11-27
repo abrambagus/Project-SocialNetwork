@@ -1,5 +1,5 @@
 import React from 'react'
-import { Footers } from '../Constans'
+import { footers } from '../constans'
 
 const Footer = () => {
   return (
@@ -37,10 +37,10 @@ const Footer = () => {
             </div>
         </div>
         <div className="flex border-t-yellow-100 border-b-yellow-100 mt-5">
-            {Footers.map((Footer, index) => (
+            {footers.map((Footer, index) => (
             <h1 key={Footer.title} className="flex font-poppins text-xs font-normal text-yellow-100">
                 <span className="cursor-pointer">{Footer.title}</span>
-                <span className={`${Footers.length - 1 === index ? "hidden" : "flex mx-5"}`}>/</span>
+                <span className={`${footers.length - 1 === index ? "hidden" : "flex mx-5"}`}>/</span>
             </h1>
             ))}
         </div>

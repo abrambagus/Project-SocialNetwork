@@ -22,7 +22,7 @@ export const categories = [
     },
   ];
 
-  export const Footers = [
+  export const footers = [
     {
         title: "About",
     },
@@ -40,7 +40,7 @@ export const categories = [
     }
   ];
 
-  export const Activities = [
+  export const activities = [
     {
         user: "John",
         comment: "test",
@@ -73,7 +73,7 @@ export const categories = [
     }
   ];
 
-  export const Channels = [
+  export const channels = [
     {
         name: "Google"
     },

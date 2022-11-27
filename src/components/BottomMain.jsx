@@ -1,5 +1,5 @@
 import React from 'react'
-import { Activities, Channels } from '../Constans'
+import { channels } from '../constans'
 import BigSquare from './BigSquare'
 import MediumSquare from './MediumSquare'
 import RedSquare from './RedSquare'
@@ -91,7 +91,7 @@ const BottomMain = () => {
             </div>
             <div className="grid grid-cols-2 gap-3 border-t-2 border-b-2 border-b-yellow-100 
             border-t-yellow-100 my-3 py-4" >
-                {Channels.map((channel) => (
+                {channels.map((channel) => (
                     <div key={channel.name} className="w-full h-[200px] bg-yellow-100 relative">
                         <div className="absolute bottom-0 left-0 px-2 pb-2">
                             <h1 className="font-poppins text-red-900 font-normal text-sm"> 
